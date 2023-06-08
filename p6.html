@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            dialog{
+                background-color: blue ;
+                color:black;
+                padding: 20px;
+                border: 2px solid black;
+                margin: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+            <h3>Details tag </h3>
+            <p>this tagb is used to specify the additional details on the web page that the user can view or hide on demand</p>
+
+        </center>
+        <hr>
+        <center>
+            <h3>This is Summary tag</h3>
+            <p>the <b>HTML SUMMARY </b> tag is used with <b>Detail tag</b>. It is used as a summary,caption or legend for the content for a details elements.   </p>
+        </center>
+        <details>
+            <summary>HTML</summary>
+            <h1></h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, totam porro ipsam beatae cum voluptas libero hic et maiores praesentium, unde aut earum autem doloremque deleniti! Eligendi, debitis recusandae! Magnam!Lorem</p>
+        </details>
+        <details>
+            <summary>CSS</summary>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, totam porro ipsam beatae cum voluptas libero hic et maiores praesentium, unde aut earum autem doloremque deleniti! Eligendi, debitis recusandae! Magnam!Lorem</p>
+        </details>
+        <details>
+            <summary>JS</summary>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, totam porro ipsam beatae cum voluptas libero hic et maiores praesentium, unde aut earum autem doloremque deleniti! Eligendi, debitis recusandae! Magnam!Lorem</p>
+        </details>
+        <center>
+            <h3>Time tag</h3>
+            <p>
+                <b>HTML Time </b> tag is used  to define the data and time. is displays time value in a24 hour clock or a precise date in a Gregorian in HTML .
+            </p>
+        </center>
+        <hr>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat minima exercitationem numquam officiis blanditiis, possimus corrupti in excepturi quasi laudantium veritatis sapiente dolore ipsum error nam quas adipisci? Explicabo, accusamus!Loremb
+            <b>2:30 pm</b>
+        </p>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat minima exercitationem numquam officiis blanditiis, possimus corrupti in excepturi quasi laudantium veritatis sapiente dolore ipsum error nam quas adipisci? Explicabo, accusamus!Loremb <time>2:30     PM</time>
+        </p>
+        <dialog id="dd">
+            <h1>FULLSTACK</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt placeat voluptate deleniti non accusamus? Facilis, alias quos quaerat repudiandae aperiam cumque. Perferendis maiores error architecto aliquam ullam labore aperiam autem?Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus numquam voluptate adipisci fugit id! Voluptates, magni porro. Perferendis obcaecati architecto consectetur vel dolorem! Praesentium eum ipsam, minima provident natus enim.</p>
+
+        </dialog>
+        <button id="btn1">Open Dialog</button>
+        <button id="btn2">Close Dialog</button>
+        <script>
+            document.getElementById("btn1").onclick=function(){
+                document.getElementById("dd").show();
+            };
+        </script>
+        <script>
+            document.getElementById("btn2").onclick=function(){
+                document.getElementById("dd").close();
+            };
+        </script>
+    </body>
+</html>
